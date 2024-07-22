@@ -6,7 +6,11 @@ Although gut microbiota is known to act as a bridge between dietary nutrients an
 ## CODES
 
 CAP.R was used to create Fig. 3B ; Fig. S1.
+
 Correlation.R was used to create Fig. 1H ; Fig. 2G ; Fig. 3J.
+
 LM_Bootstrap.R was used to create Fig. 1G ; Fig. 3G ; Fig. S1, S2, S4.
+
 PCoA.R was used to create Fig. 1D.
+
 Local_regression was used to create Fig. 2 ; Fig. S3 ; Fig. 3H-I.
