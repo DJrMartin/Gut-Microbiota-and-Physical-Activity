@@ -6,8 +6,8 @@ rm(list=ls())
 library(vegan)
 library(ape)
 
-Gut_Microbiota_Composition <- read.csv("~/Desktop/Exomic_project/data/Humans/Gut_Microbiota_Composition.csv", row.names = 1)
-Physiological_data <- read.csv("~/Desktop/Exomic_project/data/Humans/Physiological_data.csv", row.names = 1)
+Gut_Microbiota_Composition <- read.csv("Gut_Microbiota_Composition.csv", row.names = 1)
+Physiological_data <- read.csv("Physiological_data.csv", row.names = 1)
 
 ## NORMALISATION====================================================
 ### Gut Microbiota Composition
