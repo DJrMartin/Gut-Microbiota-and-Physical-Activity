@@ -8,10 +8,10 @@ rm(list=ls())
 ## IMPORTATIONS========================================
 library(vegan)
 
-Gut_Microbiota_Composition <- read.csv("~/Desktop/Exomic_project/data/Humans/Gut_Microbiota_Composition.csv", row.names = 1)
-Physiological_data <- read.csv("~/Desktop/Exomic_project/data/Humans/Physiological_data.csv", row.names = 1)
-Dietary_Food_Intakes <- read.csv("~/Desktop/Exomic_project/data/Humans/Dietary_Food_Intakes.csv", row.names = 1)
-Dietary_Nutrient_Intakes <- read.csv("~/Desktop/Exomic_project/data/Humans/Dietary_Nutrient_Intakes.csv", row.names = 1)
+Gut_Microbiota_Composition <- read.csv("Gut_Microbiota_Composition.csv", row.names = 1)
+Physiological_data <- read.csv("Physiological_data.csv", row.names = 1)
+Dietary_Food_Intakes <- read.csv("Dietary_Food_Intakes.csv", row.names = 1)
+Dietary_Nutrient_Intakes <- read.csv("Dietary_Nutrient_Intakes.csv", row.names = 1)
 
 ## NORMALISATION====================================================
 ### Gut Microbiota Composition
