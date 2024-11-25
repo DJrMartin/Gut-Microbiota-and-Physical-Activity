@@ -29,4 +29,4 @@ Dietary_Nutrient_Intakes.MACRO.TSS <- as.data.frame(t(apply(Dietary_Nutrient_Int
 Dietary_Nutrient_Intakes.VIT.TSS <- as.data.frame(t(apply(Dietary_Nutrient_Intakes[,23:31],1, function(x) x/sum(x))))
 rm(Dietary_Nutrient_Intakes)
 ### Points depending on Experimental Groups and Donors
-PCH = as.numeric(as.character(factor(Physiological_data$Groupe, c("CTL", "FOOT", "BIKE"), c(15, 16, 17))))
+PCH = as.numeric(as.character(factor(Physiological_data$Groupe, c("NoA", "ESP", "EC"), c(15, 16, 17))))
