@@ -7,14 +7,14 @@ library(vegan)
 library(ape)
 library(dendextend)
 
-Gut_Microbiota_Composition <- read.csv("~/Desktop/Exomic_project/data/Gut_Microbiota_Composition.csv", row.names = 1)
-Gut_Microbiota_Functionality <- read.csv("~/Desktop/Exomic_project/data/Gut_Microbiota_Functionality.csv", row.names = 1)
-Physiological_data <- read.csv("~/Desktop/Exomic_project/data/Physiological_data.csv", row.names = 1)
-Metabolites_data <- read.csv("~/Desktop/Exomic_project/data/Metabolites_data.csv", row.names = 1)
-Dietary_Food_Intakes <- read.csv("~/Desktop/Exomic_project/data/Dietary_Food_Intakes.csv", row.names = 1)
-Dietary_Nutrient_Intakes <- read.csv("~/Desktop/Exomic_project/data/Dietary_Nutrient_Intakes.csv", row.names = 1)
-Species_labelled <- read.csv("~/Desktop/Exomic_project/data/Species_Phylo_Label.csv", row.names = 1)
-read.tree(filt_tree,"~/Desktop/Exomic_project/data/Phylogenetic_Tree.txt")
+Gut_Microbiota_Composition <- read.csv("Gut_Microbiota_Composition.csv", row.names = 1)
+Gut_Microbiota_Functionality <- read.csv("Gut_Microbiota_Functionality.csv", row.names = 1)
+Physiological_data <- read.csv("Physiological_data.csv", row.names = 1)
+Metabolites_data <- read.csv("Metabolites_data.csv", row.names = 1)
+Dietary_Food_Intakes <- read.csv("Dietary_Food_Intakes.csv", row.names = 1)
+Dietary_Nutrient_Intakes <- read.csv("Dietary_Nutrient_Intakes.csv", row.names = 1)
+Species_labelled <- read.csv("Species_Phylo_Label.csv", row.names = 1)
+read.tree(filt_tree,"Phylogenetic_Tree.txt")
 
 ## NORMALISATION====================================================
 ### Gut Microbiota Composition
