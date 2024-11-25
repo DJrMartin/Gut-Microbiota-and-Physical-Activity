@@ -7,10 +7,10 @@ library(vegan)
 library(ape)
 library(dendextend)
 
-Gut_Microbiota_Composition <- read.csv("~/Desktop/Exomic_project/data/Humans/Gut_Microbiota_Composition.csv", row.names = 1)
-Physiological_data <- read.csv("~/Desktop/Exomic_project/data/Humans/Physiological_data.csv", row.names = 1)
-Species_labelled <- read.csv("~/Desktop/Exomic_project/data/Humans/Species_Phylo_Label.csv", row.names = 1)
-read.tree(filt_tree,"~/Desktop/Exomic_project/data/Humans/Phylogenetic_Tree.txt")
+Gut_Microbiota_Composition <- read.csv("Gut_Microbiota_Composition.csv", row.names = 1)
+Physiological_data <- read.csv("Physiological_data.csv", row.names = 1)
+Species_labelled <- read.csv("Species_Phylo_Label.csv", row.names = 1)
+read.tree(filt_tree,"Phylogenetic_Tree.txt")
 
 ## NORMALISATION====================================================
 ### Total Sum Scaling
